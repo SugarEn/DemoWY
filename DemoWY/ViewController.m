@@ -23,6 +23,8 @@
 
   WYProfile*profile=  [WYProfile shareInstance];
     NSLog(@"单例类，%@",profile);
+//    11-22 10：53 修改了  背景颜色
+    self.view.backgroundColor=[UIColor grayColor];
     
     
 }
