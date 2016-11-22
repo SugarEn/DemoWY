@@ -26,6 +26,12 @@
 //    11-22 10：53 修改了  背景颜色
     self.view.backgroundColor=[UIColor grayColor];
     
+//    11:28 添加了namelab
+    UILabel *nameLab=[[UILabel alloc]initWithFrame:CGRectMake(10, 10, 40, 40)];
+    
+    nameLab.backgroundColor=[UIColor redColor];
+    
+    [self.view addSubview:nameLab];
     
 }
 
